@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@1,200&display=swap');
+body{
+    background-color: rgb(252, 245, 235);
+}
+.divMain{
+    display: inline-block;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    color: rgb(141, 70, 23);
+}
+h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(128, 99, 56);
+}
+.portada{
+    margin: 0px 50px;
+    width: 70%;
+    background: transparent;
+}
+.banner{
+    width: 100%;
+}
+
+p{
+    display: inline;
+}
+a.right{
+    color: #2da1c1;
+    font-size: small;
+    text-decoration: none;
+    float: right;
+  
+  }
+  a.right:hover
+  {
+    color: #f90;
+    left: 252px;
+    float: right;    
+    text-decoration: none;
+  }
+
+  a.left{
+    color: #2da1c1;
+    font-size: small;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a.left:hover
+  {
+    color: #f90; 
+    text-decoration: none;
+    display: inline-block;
+  } 
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.info img {float:left;
+    margin: 10px 20px;
+}
+.info p {
+    margin-left:3px;
+     align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(152, 151, 213);
+}
+.textoCentrado{
+    text-align: center;
+}
+iframe {
+    margin: 0% 29%;    
+}
