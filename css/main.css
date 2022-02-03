@@ -96,6 +96,15 @@ iframe {
     margin: 0% 29%;    
 }
 
+.animaciones{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.animaciones:hover{
+    transform: scale(1.2);
+    border-radius: 5%;
+}
 .grilla {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.1fr .1fr .1fr 0.5fr 0.5fr .1fr 1fr;
