@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+//VARIABLES
+@import "variables/titulo";
+//SECCIONES
+@import "secciones/index";
+@import "secciones/pages";
